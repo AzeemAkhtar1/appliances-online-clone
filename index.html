@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid " style="background-color: #9A141F; height: 41px;" >
+        <img src="asset/miele-header-img.png">
+    <nav class="nav nav-pills flex-column flex-sm-row nav-hide">
+        <a class="flex-sm-fill text-sm-center nav-link text-dark fs-6 fw-light link" aria-current="page" href="#"><i class="fa-solid fa-truck" style="color: #74C0FC;"></i>Free,Next Delivery*</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark  fw-light link" href="#"><i class="fa-solid fa-recycle" style="color: #74C0FC;"></i>Free Removal & Recycling of Old Products*</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark fs-6 fw-light link" href="#"><i class="fa-solid fa-comment-dollar" style="color: #74C0FC;"></i>Price Match Guarentee*</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark fs-6 fw-light link" href="#"><i class="fa-solid fa-phone-volume" style="color: #74C0FC;"></i>24/7 Australian Customer Support*</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-primary fw-bold fs-6" href="#">About Us</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark fw-bolder fs-6 link" href="#">1300 000 500</a>
+      </nav>
+    
+  
+    <div>
+
+      <div class=" container-fluid px-0 row align-items-center">
+        <!-- Offcanvas Sidebar -->
+        <div class="offcanvas offcanvas-start" id="demo">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body bg-dark text-white">
+            <p>Washers & Dryers</p>
+            <p>Fridge & Freezers</p>
+            <p>Dishwashers, Sinks & Taps</p>
+            <p>Ovens & Cooking</p>
+            <p>TV, Audio & Electronics</p>
+            <p>Heating & Cooling</p>
+            <p>Small Appliances</p>
+            <p>BBQs & Outdoor Living</p>
+            <p>Health, Beauty & Fitness</p>
+            <p>Furniture & Bedding</p>
+            <button class="btn btn-secondary" type="button">A Button</button>
+          </div>
+        </div>
+        <div class="col-auto">
+          <i class="fa-solid fa-bars fa-2xl icon menu-button" style="color: #74C0FC;" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+        </div>
+      </div>
+      <div class="container-fluid py-2 maindiv">
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <img id="monogram" src="asset/appliances-online-transparent.png" alt="logo" class="img-fluid ms-5">
+            </div>
+            <div class="col vanish">
+                <input type="text" placeholder="Search for a product" class="form-control ">
+            </div>
+            <div class="col-auto d-none d-md-block vanish">
+                <h5 class="set-location mb-0">Click to set your location <i class="fa-solid fa-pen"></i></h5>
+            </div>
+            <div class="col-auto vanish">
+                <a href="#" class="text-decoration-none"> <i class="fa-solid fa-user"></i> My account</a>
+            </div>
+            <div class="ps-3 col-auto vanish">
+                <img src="asset/pngtree-secure-connection-icon-v.png" alt="SSL Secured" width="100" height="50" class="img-fluid">
+            </div>
+            <div class="col-auto vanish">
+                <a href="#" class="text-decoration-none"> <i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-secondary d-none d-md-flex flex-wrap">
+      <!-- Drop down code -->
+      <div class="dropdown dropdown-main w-max-25 ms-5 justify-content-center">
+        <a type="button ms-5 border-end border-end-5" class="btn btn-outline-info text-white fw-semibold bg-info rounded-0 w-auto" aria-expanded="false">
+          <i class="fa-solid fa-bars" style="color: white"></i>
+          SHOP ALL PRODUCTS
+        </a>
+        <ul class="dropdown-menu dropdown-main-menu rounded-0 bg-info py-3 bg-info py-3">
+          <!-- 2nd drop down code -->
+          <li>
+            <div class="dropend dropend-second w-max-25">
+              <a class="dropdown-item fw-semibold rounded-0 border-0 w-auto dropdown-toggle">
+                <img width="35px" src="/asset/machine-icon.png" alt=""> Washers and dryers
+              </a>
+              <ul class="dropdown-menu dropdown-second-menu rounded-0 py-3">
+                <!-- 3rd dropdown -->
+                <li>
+                  <div class="dropend dropend-third w-max-25">
+                    <a class="dropdown-item fw-semibold rounded-0 w-auto dropdown-toggle" active>
+                      Washing Machine
+                    </a>
+                    <ul class="dropdown-menu dropdown-third-menu rounded-0 py-3">
+                      <li><a class="dropdown-item" href="#">Front Loaders</a></li>
+                      <li><a class="dropdown-item" href="#">Top Loaders</a></li>
+                      <li><a class="dropdown-item" href="#">Washer Dryer Combo</a></li>
+                      <li><a class="dropdown-item" href="#">Laundry Packages</a></li>
+                      <li><a class="dropdown-item" href="#">Twin Tub Washing Machines</a></li>
+                      <li><a class="dropdown-item text-info" href="#">View All</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <!-- 3rd dropdown -->
+                  <div class="dropend dropend-third w-max-25">
+                    <a class="dropdown-item fw-semibold rounded-0 border-0 w-auto dropdown-toggle">
+                      Dryers
+                    </a>
+                    <ul class="dropdown-menu dropdown-third-menu rounded-0 py-3">
+                      <li><a class="dropdown-item" href="#">Front Loaders</a></li>
+                      <li><a class="dropdown-item" href="#">Top Loaders</a></li>
+                      <li><a class="dropdown-item" href="#">Washer Dryer Combo</a></li>
+                      <li><a class="dropdown-item" href="#">Laundry Packages</a></li>
+                      <li><a class="dropdown-item" href="#">Twin Tub Washing Machines</a></li>
+                      <li><a class="dropdown-item text-info" href="#">View All</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a class="dropdown-item" href="#">Washer Dryer Combo</a></li>
+                <li><a class="dropdown-item text-info" href="#">View All</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropend dropend-second w-max-25">
+              <a class="dropdown-item fw-semibold rounded-0 w-auto dropdown-toggle">
+                <img width="35px" src="/asset/fridges-icon.png" alt=""> Fridges & Freezers
+              </a>
+              <ul class="dropdown-menu dropdown-second-menu rounded-0 py-3">
+                <li><a class="dropdown-item" href="#">Fridges</a></li>
+                <li><a class="dropdown-item" href="#">Freezers</a></li>
+                <li><a class="dropdown-item" href="#">Beverage Fridges</a></li>
+                <li><a class="dropdown-item" href="#">Wine Fridges</a></li>
+                <li><a class="dropdown-item" href="#">Pigeon Pairs</a></li>
+                <li><a class="dropdown-item" href="#">Portable Fridges</a></li>
+                <li><a class="dropdown-item" href="#">Portable Coolers</a></li>
+                <li><a class="dropdown-item text-info" href="#">View All</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/sink-icon.png" alt=""> Dishwashers, Sinks & Taps</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/oven-icon.png" alt=""> Ovens & Cooking</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/tv-icon.png" alt=""> TV, Audio & Electronics</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/cooling-icon.png" alt=""> Heating and Cooling</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/juicer-icon.png" alt=""> Small Appliances</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/bbq-icon.png" alt=""> BBQs & Outdoor Living</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/fitness-icon.png" alt=""> Health, Beauty & Fitness</a></li>
+          <li><a class="dropdown-item" href="#"><img class="me-1" width="30px" src="/asset/bed-icon.png" alt=""> Furniture & Bedding</a></li>
+        </ul>
+        <div class="dropdown-menu dropdown-main-menu-2 rounded-0 py-3">
+          <!-- New div with d-flex and flex-column classes -->
+          <div class="d-flex flex-column">
+              <!-- Four asset inside the flex column -->
+              <img src="/asset/billi.png" alt="Image 1" class="img w-25 m-auto mb-4">
+              <img src="/asset/brita.png" alt="Image 2" class="img w-25 m-auto mb-4">
+              <img src="/asset/tcl.png" alt="Image 3" class="img w-25 m-auto mb-4">
+              <img src="/asset/omega.png" alt="Image 4" class="img w-25 m-auto mb-4">
+              <img src="/asset/tefal.png" alt="Image 4" class="img w-25 m-auto mb-4">
+              <img src="/asset/speedqueen.png" alt="Image 4" class="img w-25 m-auto mb-4">
+              <img src="/asset/insinkerator.png" alt="Image 4" class="img w-25 m-auto mb-4">
+    
+          </div>
+      </div>
+      </div>
+    
+      <!-- Additional menu items -->
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">Laundry</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">Fridges & Freezers</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">Cooking</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">Dishwashers</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">Small Appliances</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">TVs</a>
+      <a href="#" class="btn btn-outline-light nav-item nav-link text-white fw-semibold bg-transparent rounded-0 border-end border-end-5 ps-3 pe-3">A/C & Cooling</a>
+      <a href="#" class="btn btn-outline-danger nav-item nav-link text-white fw-semibold bg-danger rounded-0 border-end border-end-5 ps-3 pe-3">BDAY</a>
+    </div>
+    
+  
+
+    <!-- Products  Table Section -->
+<div class="container mt-3 px-3">
+        <!-- First Row -->
+         <div class="row align-items-stretch d-flex">
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/fridge and freezers.png" alt="Fridge and Freezers" class="img-fluid">
+                <p>Fridges & Freezers</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/laundry-appliances.png" alt="Laundry Appliances" class="img-fluid">
+                <p>Laundry Appliances</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/small-appliances.png" alt="Small Appliances" class="img-fluid">
+                <p>Small Appliances</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-6 hot-offer-card d-flex align-items-stretch">
+            <div class="product-card text-center">
+                <img src="/asset/homepage-hot-offers.png" alt="Hot Offers" class="img-fluid" width="50">
+                <p class="mt-4">Hot Offers</p>
+                <p>Checkout for daily hot deals</p>
+            </div>
+        </div>
+  
+        <!-- Second Row -->
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-cooking-v2.png" alt="Ovens and Cooking" class="img-fluid">
+                <p>Ovens & Cooking</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-dishwashers-v2.png" alt="Dishwashers, Sinks & Taps" class="img-fluid">
+                <p>Dishwashers, Sinks & Taps</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-heating-cooling-v2.png" alt="Heating & Cooling" class="img-fluid">
+                <p>Heating & Cooling</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 d-none d-md-flex align-items-stretch">
+          <div class="advertisment">
+              <img src="asset/advertise1.png" alt="Add1" height="370px" width="260px">
+          </div>
+      </div>
+         <!-- </div> -->
+  
+        <!-- Third Row -->
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="asset/category-tv-audio-v3.png" alt="Tv, audio & Electronics" class="img-fluid">
+                <p>TV, Audio & Electronics</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-health-beauty.png" alt="Health, Beauty & Fitness" class="img-fluid">
+                <p>Health, Beauty & Fitness</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-bedroom-v3.png" alt="Bed & Mattress" class="img-fluid">
+                <p>Bed & Mattresses</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+         </div>
+  
+         
+        <!-- Fourth Row -->
+        <div class="row align-items-stretch d-flex">
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-bbqs-v2.png" alt="BBQs & Outdoor Living" class="img-fluid">
+                <p>BBQs & Outdoor Living</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-furniture-v2.png" alt="Furniture" class="img-fluid">
+                <p>Furniture</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-home-office.png" alt="Home Office" class="img-fluid">
+                <p>Home Office</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-stretch">
+            <div class="product-card">
+                <img src="/asset/category-andoo-other-v2.png" alt="More From Appliances Online" class="img-fluid">
+                <p>More From Appliances Online</p>
+                <div class="hover-container">
+                    <button class="btn btn-view">View all</button>
+                </div>
+            </div>
+        </div>
+         </div>
+</div>
+  
+        <!-- Fifth Row (Banner and Carousel) -->
+         <div class="container">
+         <div class="row mt-4 mb-5">
+        <div class="col-md-6 mb-3">
+            <a href="#"><img src="/asset/fifth-row-img.png" alt="Miele Image" class="img-fluid"></a>
+        </div>
+        <div class="col-md-6">
+            <a href="#"><img src="/asset/AOL---Brand-Campaign-Homepage-Sliders-6.png" alt="Say Goodbye slider image1" class="img-fluid"></a>
+        </div>
+    </div>
+         </div>
+         
+  </div>
+
+<!-- Services -->
+  <div class="container mt-4">
+    <div class="row text-center services">
+      <div class="col-6 col-md-3 mb-3">
+        <i class="fa-solid fa-truck text-info mb-2" style="font-size: 40px;"></i>
+        <a href="#" class="d-block text-dark fw-bold">Free, Next Day Delivery</a>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <i class="fa-solid fa-recycle text-info mb-2" style="font-size: 40px;"></i>
+        <a href="#" class="d-block text-dark fw-bold">Free Removal & Recycling of Old Products</a>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <i class="fa-sharp fa-solid fa-headphones text-info mb-2" style="font-size: 40px;"></i>
+        <a href="#" class="d-block text-dark fw-bold">24/7 Australian Customer Support</a>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <i class="fa-solid fa-bag-shopping text-info mb-2" style="font-size: 40px;"></i>
+        <a href="#" class="d-block text-dark fw-bold">Price Match Guarantee</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Cards Section with Bootstrap 5.3 -->
+<div class="container my-4">
+    <div class="row g-4">
+      <!-- Card 1: Clearance -->
+      <div class="col-md-3 col-6">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Clearance</h3>
+              <p class="card-text">Pickup a bargain today!</p>
+              <button class="btn btn-primary mt-4">View</button>
+              <i class="fa-solid fa-tag float-end fs-1 text-secondary mt-4"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Card 2: Buying Guides -->
+      <div class="col-md-3 col-6">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Buying Guides</h3>
+              <p class="card-text">Learn from our appliance experts</p>
+              <button class="btn btn-primary">View</button>
+              <i class="fa-solid fa-book float-end fs-1 text-secondary"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Card 3: Promotions -->
+      <div class="col-md-3 col-6">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Promotions</h3>
+              <p class="card-text">Find out about our special offers</p>
+              <button class="btn btn-primary">View</button>
+              <i class="fa-solid fa-volume-high float-end fs-1 text-secondary"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Card 4: Testimonials -->
+      <div class="col-md-3 col-6">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Testimonials</h3>
+              <p class="card-text">Hear what our customers say about us</p>
+              <button class="btn btn-primary">View</button>
+              <i class="fa-solid fa-comments float-end fs-1 text-secondary"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+    <footer>
+        <!-- Trusted Brands Section -->
+        <section class="trusted-brands bg-light py-5 mt-5">
+          <div class="container">
+              <h4 class="brands-heading text-start pb-4">Our trusted brands</h4>
+              <div class="row text-center">
+                  <!-- First Row of Brands -->
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/black decker.png" alt="Black Decker" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/bugatti.png" alt="Bugatti" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/dyson.png" alt="Dyson" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/panasonic.png" alt="Panasonic" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/marshal.png" alt="Marshal" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-sm-none d-none d-lg-flex align-items-center justify-content-center border">
+                    <p class="mb-0 text-dark">See all brands <i class="fas fa-caret-down text-muted"></i></p>
+                </div>                
+      
+                  <!-- Second Row of Brands -->
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/masporrt.png" alt="Masport" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/napoleon.png" alt="Napoleon" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/sony.png" alt="Sony" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/whirlpool.png" alt="Whirlpool" class="brand-logo">
+                  </div>
+                  <div class="col-6 col-md-2 mb-4 d-flex align-items-center justify-content-center">
+                      <img src="/asset/garmin.png" alt="Garmin" class="brand-logo">
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+  
+        
+
+    </footer>
+
+    <!-- Footer Section -->
+<footer class="footer bg-light py-5">
+    <div class="container">
+      <!-- Footer Links -->
+      <div class="row border-top border-bottom py-4">
+        <div class="col-md-2">
+          <h4 class="footer-heading">Customer Service</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Delivery & Legendary Service</a></li>
+            <li><a href="#" class="text-muted">Buying Guides</a></li>
+            <li><a href="#" class="text-muted">Payment Methods</a></li>
+            <li><a href="#" class="text-muted">Product Reviews</a></li>
+            <li><a href="#" class="text-muted">FAQ</a></li>
+            <li><a href="#" class="text-muted">Klarna - Buy Now, Pay Later</a></li>
+            <li><a href="#" class="text-muted">Afterpay it</a></li>
+            <li><a href="#" class="text-muted">Zip - Own It Now, Pay Later</a></li>
+            <li><a href="#" class="text-muted">What is RRP?</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Contact Us</a></li>
+            <li><a href="#" class="text-muted">Gift Vouchers</a></li>
+            <li><a href="#" class="text-muted">Promotions</a></li>
+            <li><a href="#" class="text-muted">Clearance Section</a></li>
+            <li><a href="#" class="text-muted">Appliance Packages</a></li>
+            <li><a href="#" class="text-muted">Hot Offers</a></li>
+            <li><a href="#" class="text-muted">Refer a Friend & Be Rewarded</a></li>
+            <li><a href="#" class="text-muted">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 class="footer-heading">About Appliances Online</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">About Us</a></li>
+            <li><a href="#" class="text-muted">Commercial</a></li>
+            <li><a href="#" class="text-muted">Blog</a></li>
+            <li><a href="#" class="text-muted">Testimonials</a></li>
+            <li><a href="#" class="text-muted">Trading Terms</a></li>
+            <li><a href="#" class="text-muted">Privacy Policy</a></li>
+            <li><a href="#" class="text-muted">Return Policy</a></li>
+            <li><a href="#" class="text-muted">Sustainability</a></li>
+            <li><a href="#" class="text-muted">Recall Notices</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 class="footer-heading">Our Partners</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Andoo</a></li>
+            <li><a href="#" class="text-muted">Andoo NZ</a></li>
+            <li><a href="#" class="text-muted">Harris Farm Markets</a></li>
+            <li><a href="#" class="text-muted">Heelix</a></li>
+            <li><a href="#" class="text-muted">Home Clearance</a></li>
+            <li><a href="#" class="text-muted">ORA</a></li>
+            <li><a href="#" class="text-muted">Rogerseller</a></li>
+            <li><a href="#" class="text-muted">Service Seeking</a></li>
+            <li><a href="#" class="text-muted">The Wine Collective</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Service Seeking</a></li>
+            <li><a href="#" class="text-muted">The Wine Collective</a></li>
+            <li><a href="#" class="text-muted">Winning Academy</a></li>
+            <li><a href="#" class="text-muted">Winning Appliances</a></li>
+            <li><a href="#" class="text-muted">Winning Group</a></li>
+            <li><a href="#" class="text-muted">Winning Magazine</a></li>
+            <li><a href="#" class="text-muted">Winning Services</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Footer Social & Payment Section -->
+<section class="footer-social-payment py-4 bg-light">
+  <div class="container">
+      <div class="row mt-4 mb-4 align-items-center">
+          <!-- Payment Methods -->
+          <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <div class="d-flex flex-wrap justify-content-center justify-content-md-start align-items-center">
+                  <img src="/asset/visa-card.png" alt="Visa" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/master-card.png" alt="Mastercard" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/american-express.png" alt="American Express" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/paypal-card.png" alt="PayPal" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/klarna-card.png" alt="Klarna" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/apple-pay-card.png" alt="Apple Pay" class="img-fluid payment-logo me-3 mb-2">
+                  <img src="/asset/google-pay-card.png" alt="Google Pay" class="img-fluid payment-logo me-3 mb-2">
+              </div>
+          </div>
+          
+          <!-- Social Media Icons -->
+          <div class="col-12 col-md-6">
+              <div class="d-flex flex-wrap justify-content-center justify-content-md-end align-items-center">
+                  <a href="#" class="text-muted me-3 mb-2 fs-4"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="text-muted me-3 mb-2 fs-4"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-muted me-3 mb-2 fs-4"><i class="fab fa-tiktok"></i></a>
+                  <a href="#" class="text-muted mb-2 fs-4"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  
+
+        <div class="container-fluid bg-color">
+            <section class=" bg-color text-white py-3">
+                <div class="row gx-5 subscribe-section">
+                    <div class="col-md-5">
+                        <h3>Get free content and exclusive deals</h3>
+                        <form class="row g-2 pt-2 subscription-form">   
+                            <div class="col-md-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="postcode" class="form-label">Postcode <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="postcode" name="postcode" required>
+                            </div>
+                            <div class="col-md-3 pt-3">
+                                <button class="btn btn-warning mt-3 btn-El1" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-7 Acknowledgment">
+                        <h3>Acknowledgement of Country</h3>
+                        <p class="pt-3 fw-light fs-6">
+                            In the spirit of reconciliation, Appliances Online acknowledges the Traditional Custodians
+                            of country
+                            throughout Australia and their connections to land, sea, and community. We pay our respect
+                            to their
+                            Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander
+                            peoples
+                            today.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row  mt-4 details">
+                <div class="col-7 ">
+                    <p>&copy; 2004 - 2024 AppliancesOnline.com.au &nbsp; | &nbsp; ACN 151 833 546 &nbsp; | &nbsp; ABN 19 151
+                        833 546</p>
+    
+                </div>
+                <div class="col-5 " style="float: right;">
+
+                    <p>Level 2, 20A Danks Street, Redfern NSW 2016 &nbsp; | &nbsp; 1300 000 500</p>
+                </div>
+            
+            </div>
+        </div>
+
+    </footer>
+
+    <footer>
+    
+
+    <!-- Sticky Elements -->
+<div class="sticky-rating bg-white border shadow-sm rounded">
+    <div class="rating">
+      <p>0.0 ★★★★★</p>
+      <p>No rating available</p>
+    </div>
+  </div>
+  
+  <div class="sticky-chat bg-primary text-white rounded-circle d-flex justify-content-center align-items-center">
+    <i class="fa-solid fa-comment-dots"></i>
+  </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>

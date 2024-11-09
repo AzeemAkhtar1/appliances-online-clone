@@ -1,0 +1,724 @@
+
+/* :root{
+    font-family: Arial, Helvetica, sans-serif;
+    --color1: #02b5cd;
+    --color2:  #56545B;
+    --color3:  #f3f3f3;
+    --color4:  #f5945c;
+    --color5: rgb(10, 204, 204);
+    --color6: #e9702a;
+} */
+@media (max-width: 1253px) {
+    .nav-hide{
+      display: none;
+    }
+  }
+.nav-hide .link:hover{
+    color: skyblue !important;
+  }
+                                                          
+.header{                                      
+    background-color:#c4102b;
+    display: grid;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    cursor: pointer;    
+}
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    img {
+        width: 100%; 
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.main-div{
+    background-color: #FFFFFF;
+}
+.main-div div a{
+    background-color: #630000;
+}
+
+.icon{
+    display: none;
+}
+@media (max-width:1034px) {
+    .maindiv div{
+        font-size: small;
+    }
+}
+
+@media (max-width:953px) {
+    .vanish{
+        display: none;
+    }    
+}
+
+@media (max-width:553px) {
+   .maindiv #monogram{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        width: 250px;
+    }
+    .icon{
+        display: block;
+    }
+}
+
+#about-us{
+    color: var(--color1);
+    font-weight: bold;
+    &:hover{
+        color: rgb(29, 223, 223);
+    }
+
+}
+
+/* Products Table */
+/* Custom Product Card Styles */
+.product-card {
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.15) 0px 8px 16px -8px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .product-card p {
+    font-size: 20px;
+  }
+
+  /* Hover Effect */
+.hover-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .product-card:hover .hover-container {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu-button{
+    position: relative;
+    top: 55px;
+    left: 20px;
+ }
+
+  .btn-view {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  /* OffCanvas for the sidebar option after click on the bar icone */
+  .offcanvas-body{
+    p{
+        padding: 20px;
+        border-bottom: 1px solid grey;
+    }
+  }
+
+  .btn-view:hover {
+    background-color: #55C7DE;
+  }
+  
+
+@media (max-width: 768px) {
+    .hot-offer-card img{
+            width: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container .products {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-social img{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #about-us, #number{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .products a{
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+#monogram{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+.set-location{
+    color: var(--color1);
+    font-size: smaller;
+    margin: 0 30px 0 70px;
+}
+
+.secondary-header i{
+    margin-top: 15px;
+    font-size: 20px;
+    color: var(--color2);
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .main-header #monogram{
+        display: block;
+    }
+    .main-header{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        align-items: center;
+        padding-left: 5px;
+    }    
+}
+@media only screen and (max-width: 1030px) {
+    .main-navbar{
+        display: none;
+    }
+
+}
+
+/* Trusted Brands Section */
+.brand-logo {
+    width: 90px;      
+    height: 80px;      
+    object-fit: contain; 
+}
+
+.trusted-brands .row .col-md-2 {
+    height: 100px;     
+}
+
+.trusted-brands .row .col-md-2 p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dropdown-menu .dropdown-item:hover
+{
+    text-decoration: none;
+}
+
+
+.justify{
+    margin-left: 100px;
+    padding: 0 10px 0 10px;
+}
+.dropdown:hover >.dropdown-menu, .dropend:hover >.dropdown-menu{
+    display: block;
+}
+
+.dropend:hover >.dropdown-menu{
+    position: absolute;
+    top: -8px;
+    left: 100%;
+}
+.dropdown .dropdown-menu{
+    display: none;
+}
+
+
+.dropdown .dropdown-menu{
+    height: 600px;
+    width: 300px;
+
+}
+.dropdown .dropdown-item{
+    height: 35px;
+}
+
+
+#view{
+    font-size: medium;
+    color: var(--color1);
+}
+.card {
+    box-shadow: 1.5px 1.6px 2px 2px #f7f7f7;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hot-offers img{
+    padding-top: 5px;
+    width: 27%;
+}
+.card:hover {
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.hot-offers:hover{
+    box-shadow: 0px 0px 5px 0.3px rgba(254, 135, 60, 0.7);
+}
+
+.hot-offers{
+    box-shadow: 0px 0px 5px 0.3px rgba(254, 135, 60, 0.7);
+}
+
+
+.advertisment{
+    position: absolute;
+    left: 71.9%;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1030px) {
+    .col-md-3 .advertisment {
+        display: none;
+    }
+}
+
+
+.services a{                                                               
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.services i{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.customers img{
+    width: 400px;
+    height: 80px;
+}
+.customers h3{
+   color:var(--color5);
+   font-size: larger;
+}
+
+
+.testimonial 
+{
+    font-size: small;
+    color: var(--color2);
+}
+.testimonial h4{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Card Button Customization */
+.card-body button {
+    background-color: #fc7b2c;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.card i {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #f1f1f1;
+  }
+  
+  .footer-heading {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer a {
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #000;
+  }
+  
+  .footer img {
+    margin-right: 10px;
+  }
+  
+  .footer .fab {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+
+.brands i {
+    padding-left: 4px;
+}
+
+.brands-names:hover {
+    background-color: white;
+}
+
+.brands-names{
+    font-size: medium;
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+    cursor: pointer;    
+    padding: 30px 20px 30px 20px;
+    border: 1px solid #bcbbc2;
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+    font-size: smaller;
+    color: #333;
+    padding: 15px 0;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color:gray;
+}
+ul li{
+    padding: 2px 0;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .bottom-btn .brands-names{
+        display: none;
+    }
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    color:gray;
+}
+
+.discriptions h5{
+    color: var(--color2);
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+@media only screen and (max-width: 1030px){
+    .Promotion-cards i{
+        display: none;
+    }
+}
+
+.credit {
+    position: relative;
+}
+
+.media {
+    cursor: pointer;
+    position: absolute;
+    left: 85%;
+    bottom: 40%;
+    font-size: 2rem; 
+    color: #56545B;
+}
+
+.media #icons:hover {
+    color: #a2a1a6;
+}
+
+@media only screen and (max-width: 767px) {
+    .media i{       
+        display: none;
+    }
+}
+.subscription-form .btn-El1{
+    background-color: #ef8447;
+    color: white;
+    border-radius: 2px;
+    border-color: #ef8447;
+}
+.subscription-form .btn-El1:hover{
+    background-color: #e76b23;
+}
+
+.subscribe-section h3{
+    font-size: large;
+    font-weight: bold;
+}
+
+.bg-color{
+    background-color: #575563;
+}
+
+.details{
+    color: rgb(167, 164, 164);
+    font-size: small;
+}
+@media only screen and (max-width: 430px) {
+    .subscription-form .btn-El1{
+        padding:10px 39% 10px 39%;
+        margin-bottom: 20px;
+        border-radius: 2px;
+
+    }
+}
+
+
+/* Sticky Rating */
+.sticky-rating {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border: 1px solid #ddd;
+    /* padding: 5px 10px; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 10px;
+}
+
+/* Sticky Chat */
+.sticky-chat {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.sticky-chat i {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.footer-social-payment .payment-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.footer-social-payment a {
+    color: #6c757d; /* Bootstrap's text-muted color */
+    transition: color 0.3s;
+}
+
+.footer-social-payment a:hover {
+    color: #343a40; /* Darker color on hover */
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* General styling for the navbar items */
+.nav-item {
+    background-color: #575563;
+    padding: 5px 5px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; 
+}
+.nav-item a {
+    text-decoration: none !important;
+}
+.shop-all-btn {
+    background-color: #00cfe8;
+    padding: 30px 20px; 
+    color: white; 
+    text-align: center; 
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.nav-item:hover {
+    background-color: #00cfe8; /* Color change when hovering */
+    color: #fff
+}
+
+
+  
+ /* General dropdown styles */
+ .dropdown-menu .dropdown-item {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color: black;
+}
+
+/* First dropdown hover state */
+.dropdown-main:hover .dropdown-main-menu {
+    display: block;
+    height: 500px;
+    z-index: 66;
+    width: 300px; 
+}
+
+/* Second dropdown hover state */
+.dropend-second .dropdown-item {
+    position: relative;
+}
+
+.dropend-second:hover {
+    background-color: white; /* Ensure background changes on hover */
+}
+
+.dropend-second:hover .dropdown-item {
+    background-color: white; /* Maintain hover state */
+    color: rgb(106, 106, 106);
+}
+
+/* Show the second dropdown on hover */
+.dropend-second:hover .dropdown-second-menu {
+    display: block;
+    position: absolute;
+    top: 0; /* Stick to the top */
+    left: 100%;
+    margin-top: 0;
+    background-color: white;
+    z-index: 100000; /* Ensures it stays on top */
+    width: 250px; /* Adjust width */
+}
+
+/* Keep parent dropdown highlighted when hovering over second dropdown */
+.dropend-second:hover,
+.dropend-second:hover .dropdown-second-menu {
+    background-color: white;
+}
+
+/* Hide second dropdown by default */
+.dropdown-second-menu {
+    display: none;
+    height: 482px;
+    border: none;
+}
+
+.dropdown-second-menu .dropdown-item {
+    color: #6e6e6e;
+    font-weight: 700;
+    font-size: small;
+}
+
+.dropdown-second-menu .dropdown-item:hover {
+    color: #00B5CC;
+    font-weight: bold;
+}
+
+/* Third dropdown hover state */
+.dropend-third .dropdown-item {
+    position: relative;
+}
+
+.dropend-third:hover {
+    background-color: #dadada; /* Grey background on hover */
+}
+
+/* Applies hover effect to the second and third dropdown items */
+.dropend-third:hover .dropdown-item {
+    background-color: #dadada;
+    color: rgb(106, 106, 106);
+}
+
+/* Show third dropdown on hover */
+.dropend-third:hover .dropdown-third-menu {
+    display: block;
+    position: absolute;
+    top: 0; /* Stick to the top */
+    left: 100%;
+    margin-top: 0;
+    background-color: white;
+    width: 250px; /* Adjust width */
+}
+
+/* Keep parent dropdown highlighted when hovering over third dropdown */
+.dropend-third:hover,
+.dropend-third:hover .dropdown-third-menu {
+    background-color: #dadada;
+}
+
+/* Hide third dropdown by default */
+.dropdown-third-menu {
+    display: none;
+    height: 482px;
+    border:none;
+}
+
+.dropdown-third-menu .dropdown-item {
+    color: #6e6e6e;
+    font-weight: 700;
+    font-size: small;
+}
+
+.dropdown-third-menu .dropdown-item:hover {
+    color: #00B5CC;
+    font-weight: bold;
+    background-color: #dadada;
+}
+
+/* Ensure the hover effect on the first item in the second dropdown */
+.dropdown-second-menu .dropdown-item:hover {
+    background-color: #dadada;
+}
+
+/* Bookmark */
+.dropdown-main:hover .dropdown-main-menu-2 {
+    display: block;
+    height: 500px;
+    width: 420px;
+    position: absolute;
+    left: 750px;
+    background-color: #dbd7d7;
+}
