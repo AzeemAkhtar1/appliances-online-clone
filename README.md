@@ -18,7 +18,7 @@ How to Use
 
 Clone the Repository:
 Bash
-git clone https://github.com/your-username/appliances-online-clone.git
+git clone [https://github.com/AzeemAkhtar1/appliances-online-clone.git]
 Use code with caution.
 
 Open the Project: Open the project directory in your preferred code editor.
